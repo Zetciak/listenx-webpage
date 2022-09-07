@@ -23,8 +23,7 @@ function SwapTokens(props) {
 			<div className={styles.insideDiv} id="swap" data-aos="zoom-in-up">
 				<Typography className={styles.mainTitle} data-aos="zoom-in-up">
 					Swap Your <span className={styles.mainGreen}>Tokens</span>{' '}
-					For
-					<span className={styles.mainGreen}>$USDT!</span>
+					For <span className={styles.mainGreen}>$USDT!</span>
 				</Typography>
 				<Typography className={styles.mainDesc} data-aos="zoom-in-up">
 					We are something new in WEB3 industry. Be part of our

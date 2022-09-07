@@ -19,6 +19,7 @@ const useStyles = makeStyles({
 		margin: '0 auto',
 		position: 'relative',
 		marginTop: '55px',
+		'z-index': '2',
 	},
 
 	mainTitle: {
@@ -189,6 +190,7 @@ const useStyles = makeStyles({
 		bottom: '-75px',
 		backgroundRepeat: 'repeat',
 		animation: '$lineMove 120s linear infinite',
+		'z-index': '1',
 	},
 
 	'@keyframes lineMove': {

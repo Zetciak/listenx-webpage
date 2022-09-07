@@ -99,6 +99,7 @@ const useStyles = makeStyles({
 		position: 'relative',
 		marginTop: '10px',
 		transform: 'rotate(3.09deg)',
+		pointerEvents: 'none',
 	},
 
 	bottomSectionImage: {

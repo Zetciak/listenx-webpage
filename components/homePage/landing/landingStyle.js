@@ -142,6 +142,7 @@ const useStyles = makeStyles({
 		position: 'relative',
 		width: '739px',
 		height: '705px',
+		pointerEvents: 'none',
 	},
 
 	bottomSectionImage: {

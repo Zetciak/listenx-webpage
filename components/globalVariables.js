@@ -10,8 +10,12 @@ const getVariable = {
 
 	['colors']: {
 		pageMainColor: '#31C06F',
-		backgroundColor: '#1F2125',
-		white: 'rgba(255, 255, 255, 1)',
+		pageMainColorHover: '#30b267',
+		backgroundColor: 'url(https://i.imgur.com/d7taGCr.png)',
+	},
+
+	['numbers']: {
+		transitionTime: '0.5s',
 	},
 };
 

@@ -6,10 +6,11 @@ import getVariable from './globalVariables';
 const useGlobalStyles = makeStyles({
 	container: {
 		width: '100%',
-		minHeight: '100vh',
+		//minHeight: '1500vh',
 		position: 'relative',
 		overflow: 'hidden',
 		background: getVariable['colors']['backgroundColor'],
+		backgroundSize: '100%',
 	},
 });
 

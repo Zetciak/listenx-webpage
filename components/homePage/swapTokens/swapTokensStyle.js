@@ -15,16 +15,16 @@ const useStyles = makeStyles({
 		width: '1392px',
 		margin: '0 auto',
 		position: 'relative',
-		marginTop: '110px',
+		marginTop: '191px',
 	},
 
 	mainTitle: {
-		width: '690px',
+		width: '530px',
 		margin: '0 auto',
 		fontFamily: 'Krona One',
 		fontStyle: 'normal',
 		fontWeight: '400',
-		fontSize: '48px',
+		fontSize: '36px',
 		lineHeight: '125%',
 		textAlign: 'center',
 		color: '#FFFFFF',
@@ -35,12 +35,12 @@ const useStyles = makeStyles({
 	},
 
 	mainDesc: {
-		width: '560px',
+		width: '471px',
 		margin: '0 auto',
 		fontFamily: 'Krona One',
 		fontStyle: 'normal',
 		fontWeight: '400',
-		fontSize: '16.5px',
+		fontSize: '13.5px',
 		lineHeight: '125%',
 		textAlign: 'center',
 		letterSpacing: '0.15px',
@@ -48,29 +48,15 @@ const useStyles = makeStyles({
 		marginTop: '25.5px',
 	},
 
-	buttonsDiv: {
-		margin: '0 auto',
-		marginTop: '25.5px',
-		width: '350px',
+	buttonDiv: {
+		width: '180px',
 		height: '42px',
+		margin: '0 auto',
 		position: 'relative',
+		marginTop: '25.5px',
 	},
 
-	leftButtonDiv: {
-		float: 'left',
-		height: '100%',
-		width: '48%',
-		position: 'relative',
-	},
-
-	rightButtonDiv: {
-		float: 'right',
-		height: '100%',
-		width: '48%',
-		position: 'relative',
-	},
-
-	leftButton: {
+	button: {
 		width: '100%',
 		height: '100%',
 		background: getVariable['colors']['pageMainColor'],
@@ -98,36 +84,6 @@ const useStyles = makeStyles({
 		},
 	},
 
-	rightButton: {
-		width: '100%',
-		height: '100%',
-		background: 'none',
-		border: `2px solid ${getVariable['colors']['pageMainColor']}`,
-		boxShadow: 'none',
-		borderRadius: '7.5px',
-		transition: `border ${getVariable['numbers']['transitionTime']}`,
-
-		'&:hover': {
-			background: 'none',
-			border: `2px solid ${getVariable['colors']['pageMainColorHover']}`,
-			boxShadow: 'none',
-		},
-
-		'& p': {
-			fontFamily: 'Krona One',
-			fontStyle: 'normal',
-			fontWeight: '400',
-			fontSize: '12px',
-			lineHeight: '100%',
-			textTransform: 'none',
-			color: '#FFFFFF',
-		},
-
-		'& span': {
-			color: '#FFFFFF',
-		},
-	},
-
 	linkIcon: {
 		width: '19px',
 		height: 'auto',
@@ -137,11 +93,12 @@ const useStyles = makeStyles({
 	},
 
 	bottomSection: {
+		width: '700px',
+		height: '833px',
 		margin: '0 auto',
-		marginTop: '150px',
 		position: 'relative',
-		width: '739px',
-		height: '705px',
+		marginTop: '10px',
+		transform: 'rotate(3.09deg)',
 	},
 
 	bottomSectionImage: {
@@ -157,25 +114,25 @@ const useStyles = makeStyles({
 	},
 
 	bottomCircle1: {
-		width: '322px',
-		height: '322px',
+		width: '280px',
+		height: '280px',
 		position: 'absolute',
-		left: '20%',
-		//top: '-100px',
+		left: '35%',
+		//top: '-70px',
 		animation: '$animateCircle1 8s ease infinite',
 	},
 
 	'@keyframes animateCircle1': {
 		'0%': {
-			top: '-100px',
+			top: '-70px',
 		},
 
 		'50%': {
-			top: '-200px',
+			top: '0px',
 		},
 
 		'100%': {
-			top: '-100px',
+			top: '-70px',
 		},
 	},
 
@@ -183,22 +140,22 @@ const useStyles = makeStyles({
 		width: '322px',
 		height: '322px',
 		position: 'absolute',
-		left: '-5%',
-		//top: '150px',
-		animation: '$animateCircle2 12s ease infinite',
+		left: '12%',
+		//top: '280px',
+		animation: '$animateCircle2 10s ease infinite',
 	},
 
 	'@keyframes animateCircle2': {
 		'0%': {
-			top: '150px',
+			top: '280px',
 		},
 
 		'50%': {
-			top: '50px',
+			top: '210px',
 		},
 
 		'100%': {
-			top: '150px',
+			top: '280px',
 		},
 	},
 
@@ -206,22 +163,22 @@ const useStyles = makeStyles({
 		width: '322px',
 		height: '322px',
 		position: 'absolute',
-		right: '-5%',
-		top: '80px',
-		animation: '$animateCircle3 10s ease infinite',
+		right: '0%',
+		//top: '200px',
+		animation: '$animateCircle3 12s ease infinite',
 	},
 
 	'@keyframes animateCircle3': {
 		'0%': {
-			top: '80px',
+			top: '200px',
 		},
 
 		'50%': {
-			top: '-20px',
+			top: '130px',
 		},
 
 		'100%': {
-			top: '80px',
+			top: '200px',
 		},
 	},
 
@@ -231,12 +188,30 @@ const useStyles = makeStyles({
 		insideDiv: {
 			width: '1044px',
 		},
+
+		imageDiv: {
+			right: '150px',
+		},
 	},
 
 	// 1200px
 	['@media (max-width: 1200px)']: {
 		insideDiv: {
 			width: '90%',
+		},
+	},
+
+	// 1000px
+	['@media (max-width: 1000px)']: {
+		bottomSection: {
+			marginTop: '150px',
+		},
+	},
+
+	// 900px
+	['@media (max-width: 900px)']: {
+		bottomSection: {
+			marginTop: '250px',
 		},
 	},
 
@@ -251,31 +226,13 @@ const useStyles = makeStyles({
 		},
 
 		bottomSection: {
-			marginTop: '150px',
 			width: '100%',
 			height: 'auto',
 		},
 	},
 
-	// 790px
-	['@media (max-width: 790px)']: {
-		insideDiv: {
-			marginTop: '60px',
-		},
-	},
-
 	// 600px
 	['@media (max-width: 600px)']: {
-		mainTitle: {
-			fontSize: '40px',
-			lineHeight: '125%',
-		},
-
-		mainDesc: {
-			fontSize: '14.5px',
-			lineHeight: '135%',
-		},
-
 		bottomCircle1: {
 			width: '222px',
 			height: '222px',
@@ -292,30 +249,13 @@ const useStyles = makeStyles({
 		},
 	},
 
-	// 505px
-	['@media (max-width: 505px)']: {
-		mainTitle: {
-			fontSize: '36px',
-			lineHeight: '125%',
+	// 500px
+	['@media (max-width: 500px)']: {
+		bottomCircle2: {
+			display: 'none',
 		},
-	},
-
-	// 400px
-	['@media (max-width: 400px)']: {
-		buttonsDiv: {
-			width: '90%',
-			height: '90px',
-		},
-
-		leftButtonDiv: {
-			height: '48%',
-			width: '100%',
-		},
-
-		rightButtonDiv: {
-			height: '48%',
-			width: '100%',
-			marginTop: '4%',
+		bottomCircle3: {
+			display: 'none',
 		},
 	},
 });

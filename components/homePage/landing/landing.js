@@ -87,7 +87,10 @@ function Landing(props) {
 					<div
 						className={styles.bottomSectionImage}
 						style={{
-							transform: `translateY(-${props.offsetY * 0.25}px)`,
+							transform: `
+							translateY(${props.mouseY * 0.025}px)
+							translateX(${props.mouseX * 0.025}px)
+							`,
 						}}
 					>
 						<Image

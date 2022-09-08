@@ -45,15 +45,25 @@ function HomePage() {
 
 	// >> Parallax
 	const [offsetY, setOffsetY] = useState(0);
+	const [mouseX, setMouseX] = useState(0);
+	const [mouseY, setMouseY] = useState(0);
 	const handleScroll = () => {
 		setOffsetY(window.pageYOffset);
-		console.log(window.pageYOffset);
+	};
+
+	const handleMove = (e) => {
+		setMouseX(e.pageX);
+		setMouseY(e.pageY);
 	};
 
 	useEffect(() => {
 		window.addEventListener('scroll', handleScroll);
+		window.addEventListener('mousemove', handleMove);
 
-		return () => window.removeEventListener('scroll', handleScroll);
+		return () => {
+			window.removeEventListener('scroll', handleScroll);
+			window.removeEventListener('mousemove', handleMove);
+		};
 	}, []);
 
 	// >> Render
@@ -150,7 +160,11 @@ function HomePage() {
 				</div>
 				<div className={styles.componentsDiv}>
 					<NavBar />
-					<Landing offsetY={offsetY} />
+					<Landing
+						offsetY={offsetY}
+						mouseX={mouseX}
+						mouseY={mouseY}
+					/>
 					<Partners />
 					<WhyListen />
 					<App offsetY={offsetY} />

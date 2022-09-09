@@ -90,12 +90,11 @@ function MusicBanners() {
 		<div className={styles.outsideDiv}>
 			<div className={styles.insideDiv} data-aos="zoom-in-up">
 				<Typography className={styles.mainTitle}>
-					You Can Listen To{' '}
-					<span className={styles.mainGreen}>Everything!</span>
+					Listen to Anything{' '}
+					<span className={styles.mainGreen}>You Want!</span>
 				</Typography>
 				<Typography className={styles.mainDesc}>
-					We are something new in WEB3 industry. Be part of our
-					community and enjoy product
+					Do you like pop? Or rap? It doesn’t matter! You can listen to every single song on Earth using ListenFi.
 				</Typography>
 				<div className={styles.buttonDiv}>
 					<Button

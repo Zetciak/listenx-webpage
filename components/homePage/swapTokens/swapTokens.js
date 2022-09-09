@@ -22,12 +22,11 @@ function SwapTokens(props) {
 		<div className={styles.outsideDiv}>
 			<div className={styles.insideDiv} id="swap" data-aos="zoom-in-up">
 				<Typography className={styles.mainTitle} data-aos="zoom-in-up">
-					Swap Your <span className={styles.mainGreen}>Tokens</span>{' '}
-					For <span className={styles.mainGreen}>$USDT!</span>
+					Swap <span className={styles.mainGreen}>BNB</span>{' '}
+					To <span className={styles.mainGreen}>$LFI!</span> with our platform!
 				</Typography>
 				<Typography className={styles.mainDesc} data-aos="zoom-in-up">
-					We are something new in WEB3 industry. Be part of our
-					community and enjoy productWe are something
+					Do you want to earn with us thanks of our App? Swap your BNB to $LFI!
 				</Typography>
 				<div className={styles.buttonDiv} data-aos="zoom-in-up">
 					<Button

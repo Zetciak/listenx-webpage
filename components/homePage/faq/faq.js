@@ -36,20 +36,20 @@ const StyledAccordion = withStyles({
 // >> Variables
 const data = [
 	{
-		title: '1 Frequenly Asked Questions',
-		desc: '1 We are something new in WEB3 industry. Be part of our community and enjoy productWe are something We are something new in WEB3 industry. Be part of our community and enjoy productWe are something',
+		title: 'What is ListenFi?',
+		desc: 'ListenFi is a mobile app that enables ordinary people to earn tokens by listening to music. We strive to make lives easier, adding tokens to the daily budget. So skip other music apps and come to ListenFi.',
 	},
 	{
-		title: '2 Frequenly Asked Questions',
-		desc: '2 We are something new in WEB3 industry. Be part of our community and enjoy productWe are something We are something new in WEB3 industry. Be part of our community and enjoy productWe are something',
+		title: 'How much can you earn while using $LFI?',
+		desc: 'You get paid for using to music on ListenFi. So we decided to introduce the hourly model. Each hour of listening to music is $4 in $LFI!. You can listen to max. 5 hours of music each day, so the maximum daily income is around $20.',
 	},
 	{
-		title: '3 Frequenly Asked Questions',
-		desc: '3 We are something new in WEB3 industry. Be part of our community and enjoy productWe are something We are something new in WEB3 industry. Be part of our community and enjoy productWe are something',
+		title: 'What are the key features of ListenFi?',
+		desc: 'Listen to music from the ListenFi mobile app and get paid in $LFI tokens. Explore algorithm mechanisms that help you discover new artists from the music world. Create playlists and use the song-queuing feature.',
 	},
 	{
-		title: '4 Frequenly Asked Questions',
-		desc: '4 We are something new in WEB3 industry. Be part of our community and enjoy productWe are something We are something new in WEB3 industry. Be part of our community and enjoy productWe are something',
+		title: 'How do you plan to reach the network effect?',
+		desc: 'Do you know how the influencer marketing looks like? If you have a good product, nobody will refuse to advertise it to the community. ListenFi is a universal product, so the range of influencers is really broad. In addition, anyone listens to music, so adding some extra user-earning features is an easy thing to sell.',
 	},
 ];
 
@@ -75,8 +75,7 @@ function Faq() {
 					Questions
 				</Typography>
 				<Typography className={styles.mainDesc} data-aos="zoom-in-up">
-					We are something new in WEB3 industry. Be part of our
-					community and enjoy productWe are something
+					You have questions. We have answers.
 				</Typography>
 
 				<div className={styles.faqDiv}>

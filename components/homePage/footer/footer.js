@@ -45,7 +45,7 @@ function Footer() {
 								<Typography>Partners</Typography>
 							</Link>
 							<Link to="whatis" className={styles.oneMenuElement}>
-								<Typography>What is ListenX</Typography>
+								<Typography>What is ListenFi</Typography>
 							</Link>
 							<Link
 								to="keypoints"
@@ -125,7 +125,7 @@ function Footer() {
 				<div className={styles.bottomSection}>
 					<Typography className={styles.leftBottomText}>
 						© 2022{' '}
-						<span className={styles.leftBottomGreen}>ListenX</span>{' '}
+						<span className={styles.leftBottomGreen}>ListenFi</span>{' '}
 						All rights reserved
 					</Typography>
 					<div className={styles.bottomRightElements}>

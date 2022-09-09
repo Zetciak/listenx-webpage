@@ -17,11 +17,10 @@ function WhyListen() {
 		<div className={styles.outsideDiv} id="whatis" data-aos="fade-up">
 			<div className={styles.insideDiv} data-aos="zoom-in-up">
 				<Typography className={styles.mainTitle}>
-					Why <span className={styles.mainGreen}>ListenX?</span>
+					Why <span className={styles.mainGreen}>ListenFi?</span>
 				</Typography>
 				<Typography className={styles.mainDesc}>
-					We are something new in WEB3 industry. Be part of our
-					community and enjoy productWe are something
+					The concept of ListenFi is based on making ordinary things profitable.
 				</Typography>
 				<div className={styles.youtubeDiv}>
 					<iframe

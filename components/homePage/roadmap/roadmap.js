@@ -131,8 +131,7 @@ function Roadmap() {
 					<span className={styles.mainGreen}>Roadmap</span>
 				</Typography>
 				<Typography className={styles.mainDesc} data-aos="zoom-in-up">
-					We are something new in WEB3 industry. Be part of our
-					community and enjoy productWe are something
+					The next months will be crucial in terms of the ListenFi development.
 				</Typography>
 
 				<div className={styles.roadmapDiv}>

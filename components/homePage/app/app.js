@@ -41,8 +41,7 @@ function App(props) {
 						</span>
 					</Typography>
 					<Typography className={styles.mainDesc}>
-						We are something new in WEB3 industry. Be part of our
-						community and enjoy productWe are something
+					Listen to music from the ListenFi mobile app and get paid in $LFI tokens!
 					</Typography>
 					<div className={styles.buttonDiv}>
 						<Button

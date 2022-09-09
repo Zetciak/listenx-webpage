@@ -23,13 +23,12 @@ function Landing(props) {
 		<div className={styles.outsideDiv} id="home">
 			<div className={styles.insideDiv} data-aos="zoom-in-up">
 				<Typography className={styles.mainTitle} data-aos="zoom-in-up">
-					Listen Music And{' '}
+					Listen to Music And {' '}
 					<span className={styles.mainGreen}>Earn Money</span> For{' '}
 					<span className={styles.mainGreen}>Free!</span>
 				</Typography>
 				<Typography className={styles.mainDesc} data-aos="zoom-in-up">
-					We are something new in WEB3 industry. Be part of our
-					community and enjoy{' '}
+					ListenFi is an app that enables earning tokens by listening to music. May the beat be with you.{' '}
 				</Typography>
 				<div className={styles.buttonsDiv} data-aos="zoom-in-up">
 					<div className={styles.leftButtonDiv}>

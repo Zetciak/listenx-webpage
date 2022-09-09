@@ -1,11 +1,11 @@
 // >> Variables
 const getVariable = {
 	['texts']: {
-		pageTitle: 'ListenX',
+		pageTitle: 'ListenFi',
 		pageDesc: 'Listen Music And Earn Money For Free!',
 		pageImage: 'https://i.imgur.com/64A3mMG.png',
 		pageTags: 'TAG1,TAG2',
-		pageLink: 'listenx-zetty.vercel.app',
+		pageLink: '',
 	},
 
 	['colors']: {

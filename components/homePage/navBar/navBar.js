@@ -40,7 +40,7 @@ function NavBar() {
 						<Typography>Partners</Typography>
 					</Link>
 					<Link to="whatis" className={styles.oneCenterElement}>
-						<Typography>What is ListenX</Typography>
+						<Typography>What is ListenFi</Typography>
 					</Link>
 					<Link to="keypoints" className={styles.oneCenterElement}>
 						<Typography>Key Points</Typography>

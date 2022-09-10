@@ -10,6 +10,9 @@ const useStyles = makeStyles({
 		float: 'left',
 		'z-index': '4',
 		paddingBottom: '50px',
+		marginTop: '57px',
+		background:
+			'linear-gradient(180deg, rgba(0, 0, 0, 0) -2.56%, rgba(0, 0, 0, 0.25) 13.35%)',
 	},
 
 	insideDiv: {
@@ -17,7 +20,7 @@ const useStyles = makeStyles({
 		height: '108px',
 		margin: '0 auto',
 		position: 'relative',
-		marginTop: '77px',
+		marginTop: '20px',
 	},
 
 	topSection: {
@@ -33,30 +36,33 @@ const useStyles = makeStyles({
 	topRightSection: {
 		float: 'right',
 		position: 'relative',
+		marginTop: '90px',
 	},
 
 	logoDiv: {
 		width: '120px',
 		height: '36px',
-		float: 'left',
+		//float: 'left',
 		marginTop: '22px',
 	},
 
 	topLeftMenu: {
-		float: 'left',
-		marginLeft: '60px',
+		//float: 'left',
+		//marginLeft: '60px',
 		marginTop: '33px',
+		width: '430px',
 	},
 
 	oneMenuElement: {
 		display: 'inline-block',
-		marginRight: '22px',
+		marginRight: '35px',
+		marginTop: '12px',
 
 		'& p': {
 			fontFamily: 'Readex Pro',
 			fontStyle: 'normal',
 			fontWeight: '400',
-			fontSize: '14px',
+			fontSize: '15px',
 			lineHeight: '100%',
 			letterSpacing: '0.15px',
 			color: 'rgba(255, 255, 255, 0.75)',
@@ -181,13 +187,6 @@ const useStyles = makeStyles({
 		},
 	},
 
-	// 1050px
-	['@media (max-width: 1050px)']: {
-		topLeftMenu: {
-			display: 'none',
-		},
-	},
-
 	// 680px
 	['@media (max-width: 680px)']: {
 		leftBottomText: {
@@ -196,11 +195,22 @@ const useStyles = makeStyles({
 		},
 
 		bottomRightElements: {
-			width: '333px',
+			width: '255px',
 			margin: '0 auto',
 			marginTop: '35px',
 			float: 'none',
 			clear: 'both',
+		},
+	},
+
+	// 605px
+	['@media (max-width: 605px)']: {
+		topLeftMenu: {
+			display: 'none',
+		},
+
+		topRightSection: {
+			marginTop: '0px',
 		},
 	},
 

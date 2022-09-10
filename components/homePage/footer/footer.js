@@ -119,9 +119,6 @@ function Footer() {
 						<a href="." className={styles.oneBottomRight}>
 							Privacy Policy
 						</a>
-						<a href="." className={styles.oneBottomRight}>
-							Sitemap
-						</a>
 					</div>
 				</div>
 			</div>

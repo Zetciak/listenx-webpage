@@ -8,16 +8,16 @@ import useGlobalStyles from '../../globalStyle';
 
 // >> Images
 import binance from '../../../public/partners/binance.png';
-import bitmex from '../../../public/partners/bitmex.png';
-import blockchain from '../../../public/partners/blockchain.png';
-import ethereum from '../../../public/partners/ethereum.png';
+import coinmarketcap from '../../../public/partners/coinmarketcap.png';
+import coingecko from '../../../public/partners/coingecko.png';
+import bscscan from '../../../public/partners/bscscan.png';
 
 // >> Variables
 let partners = [
 	{ logo: binance, link: 'https://www.binance.com/' },
-	{ logo: ethereum, link: 'https://ethereum.org/' },
-	{ logo: blockchain, link: 'https://blockchain.io/' },
-	{ logo: bitmex, link: 'https://www.bitmex.com/' },
+	{ logo: bscscan, link: 'https://bscscan.com/' },
+	{ logo: coingecko, link: 'https://www.coingecko.com' },
+	{ logo: coinmarketcap, link: 'https://coinmarketcap.com/' },
 ];
 
 // >> Script

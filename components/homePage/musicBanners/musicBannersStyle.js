@@ -2,6 +2,10 @@
 import getVariable from '../../globalVariables';
 import { makeStyles } from '@mui/styles';
 
+// >> Images
+import appStore from '../../../public/appStore.png';
+import googlePlay from '../../../public/googlePlay.png';
+
 // >> Styling
 const useStyles = makeStyles({
 	outsideDiv: {
@@ -126,35 +130,35 @@ const useStyles = makeStyles({
 		marginTop: '25.5px',
 	},
 
-	buttonDiv: {
-		width: '180px',
-		height: '42px',
+	buttonsDiv: {
+		width: '324px',
+		height: '51px',
 		margin: '0 auto',
 		position: 'relative',
 		marginTop: '25.5px',
 	},
 
-	button: {
+	googlePlayButtonDiv: {
+		width: '48%',
+		height: '100%',
+		float: 'left',
+		position: 'relative',
+	},
+
+	googlePlayButton: {
 		width: '100%',
 		height: '100%',
-		background: getVariable['colors']['pageMainColor'],
+		background: `url(${googlePlay.src})`,
+		backgroundSize: '100% 100%',
 		boxShadow: 'none',
-		borderRadius: '7.5px',
-		transition: `background ${getVariable['numbers']['transitionTime']}`,
+		opacity: '1',
+		transition: `opacity ${getVariable['numbers']['transitionTime']}`,
 
 		'&:hover': {
-			background: getVariable['colors']['pageMainColorHover'],
+			background: `url(${googlePlay.src})`,
+			backgroundSize: '100% 100%',
 			boxShadow: 'none',
-		},
-
-		'& p': {
-			fontFamily: 'Krona One',
-			fontStyle: 'normal',
-			fontWeight: '400',
-			fontSize: '12px',
-			lineHeight: '100%',
-			textTransform: 'none',
-			color: '#FFFFFF',
+			opacity: '.8',
 		},
 
 		'& span': {
@@ -162,12 +166,32 @@ const useStyles = makeStyles({
 		},
 	},
 
-	linkIcon: {
-		width: '19px',
-		height: 'auto',
-		color: '#FFFFFF',
-		marginRight: '6px',
-		transform: 'rotate(-45deg)',
+	appStoreButtonDiv: {
+		width: '48%',
+		height: '100%',
+		float: 'right',
+		position: 'relative',
+	},
+
+	appStoreButton: {
+		width: '100%',
+		height: '100%',
+		background: `url(${appStore.src})`,
+		backgroundSize: '100% 100%',
+		boxShadow: 'none',
+		opacity: '1',
+		transition: `opacity ${getVariable['numbers']['transitionTime']}`,
+
+		'&:hover': {
+			background: `url(${appStore.src})`,
+			backgroundSize: '100% 100%',
+			boxShadow: 'none',
+			opacity: '.8',
+		},
+
+		'& span': {
+			color: '#FFFFFF',
+		},
 	},
 
 	bottomButtonIcon: {
@@ -222,6 +246,25 @@ const useStyles = makeStyles({
 
 		mainDesc: {
 			width: '100%',
+		},
+	},
+
+	// 390px
+	['@media (max-width: 390px)']: {
+		buttonsDiv: {
+			width: '155px',
+			height: '70px',
+		},
+
+		googlePlayButtonDiv: {
+			width: '100%',
+			height: '51px',
+		},
+
+		appStoreButtonDiv: {
+			width: '100%',
+			height: '51px',
+			marginTop: '10px',
 		},
 	},
 });

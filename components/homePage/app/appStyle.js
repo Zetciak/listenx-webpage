@@ -40,7 +40,7 @@ const useStyles = makeStyles({
 	},
 
 	mainTitle: {
-		width: '530px',
+		width: '640px',
 		fontFamily: 'Krona One',
 		fontStyle: 'normal',
 		fontWeight: '400',
@@ -131,6 +131,13 @@ const useStyles = makeStyles({
 	['@media (max-width: 1200px)']: {
 		insideDiv: {
 			width: '90%',
+		},
+	},
+
+	// 1150px
+	['@media (max-width: 1150px)']: {
+		mainTitle: {
+			width: '530px',
 		},
 	},
 

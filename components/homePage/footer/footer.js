@@ -11,6 +11,7 @@ import useGlobalStyles from '../../globalStyle';
 // >> Images
 import logo from '../../../public/logo.png';
 import twitter from '../../../public/twitter.svg';
+import telegram from '../../../public/telegram.svg';
 
 // >> Script
 function Footer() {
@@ -93,24 +94,7 @@ function Footer() {
 						>
 							<div className={styles.topRightButtonImage}>
 								<Image
-									src={twitter}
-									alt=""
-									layout="responsive"
-									objectFit="contain"
-									quality={100}
-									priority={true}
-								/>
-							</div>
-						</IconButton>
-						<IconButton
-							variant="contained"
-							className={styles.topRightButton}
-							href="."
-							target="_blank"
-						>
-							<div className={styles.topRightButtonImage}>
-								<Image
-									src={twitter}
+									src={telegram}
 									alt=""
 									layout="responsive"
 									objectFit="contain"

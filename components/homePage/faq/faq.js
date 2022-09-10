@@ -23,7 +23,6 @@ const StyledAccordion = withStyles({
 		background: 'none',
 		border: 'none',
 		boxShadow: 'none',
-		transition: 'all .3s',
 
 		'&$expanded': {
 			marginTop: '0px',
@@ -32,6 +31,10 @@ const StyledAccordion = withStyles({
 
 	expanded: {},
 })(Accordion);
+
+const slideProps = {
+	timeout: { enter: 1000, exit: 1000 },
+};
 
 // >> Variables
 const data = [
@@ -92,6 +95,7 @@ function Faq() {
 									key={id}
 									onChange={handleChange(id)}
 									square
+									TransitionProps={slideProps}
 								>
 									<AccordionSummary
 										expandIcon={

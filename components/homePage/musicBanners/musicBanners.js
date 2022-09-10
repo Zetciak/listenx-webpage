@@ -23,7 +23,6 @@ import banner10 from '../../../public/musicBanners/banner10.png';
 import banner11 from '../../../public/musicBanners/banner11.png';
 import banner12 from '../../../public/musicBanners/banner12.png';
 import banner13 from '../../../public/musicBanners/banner13.png';
-import LinkIcon from '@mui/icons-material/Link';
 import PlayArrowRoundedIcon from '@mui/icons-material/PlayArrowRounded';
 
 // >> Variables
@@ -94,17 +93,25 @@ function MusicBanners() {
 					<span className={styles.mainGreen}>You Want!</span>
 				</Typography>
 				<Typography className={styles.mainDesc}>
-					Do you like pop? Or rap? It doesn’t matter! You can listen to every single song on Earth using ListenFi.
+					Do you like pop? Or rap? It doesn’t matter! You can listen
+					to every single song on Earth using ListenFi.
 				</Typography>
-				<div className={styles.buttonDiv}>
-					<Button
-						variant="contained"
-						className={styles.button}
-						href="."
-					>
-						<LinkIcon className={styles.linkIcon} />
-						<Typography>Lorem Ipsum</Typography>
-					</Button>
+				<div className={styles.buttonsDiv}>
+					<div className={styles.googlePlayButtonDiv}>
+						<Button
+							variant="contained"
+							className={styles.googlePlayButton}
+							href="."
+						></Button>
+					</div>
+
+					<div className={styles.appStoreButtonDiv}>
+						<Button
+							variant="contained"
+							className={styles.appStoreButton}
+							href="."
+						></Button>
+					</div>
 				</div>
 			</div>
 			<div className={styles.sliders}>
@@ -127,33 +134,6 @@ function MusicBanners() {
 						pauseOnHover={true}
 					>
 						{drawBanners}
-						<div
-							className={styles.oneBanner}
-							style={{
-								background: `url(${banner13.src})`,
-							}}
-						>
-							<div className={styles.bottomInfos}>
-								<Typography className={styles.titleText}>
-									Trójkąt Bermudzki
-								</Typography>
-								<Typography className={styles.authorText}>
-									Sentino, Nitro, MB
-								</Typography>
-							</div>
-							<div className={styles.bottomButtonDiv}>
-								<IconButton
-									variant="contained"
-									className={styles.bottomButton}
-									href="https://www.youtube.com/watch?v=0FTPCEwJpCY"
-									target="_blank"
-								>
-									<PlayArrowRoundedIcon
-										className={styles.bottomButtonIcon}
-									/>
-								</IconButton>
-							</div>
-						</div>
 					</Marquee>
 				</div>
 			</div>

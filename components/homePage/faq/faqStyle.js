@@ -100,7 +100,7 @@ const useStyles = makeStyles({
 		fontFamily: 'Krona One',
 		fontStyle: 'normal',
 		fontWeight: '400',
-		fontSize: '10.5px',
+		fontSize: '12.5px',
 		lineHeight: '125%',
 		letterSpacing: '0.15px',
 		color: '#ffffff',

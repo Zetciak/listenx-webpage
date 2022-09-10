@@ -9,7 +9,7 @@ import useGlobalStyles from '../../globalStyle';
 // >> Images
 import landingCircle from '../../../public/landingCircle.png';
 import bottomPhones from '../../../public/bottomPhones.png';
-import LinkIcon from '@mui/icons-material/Link';
+import PhoneIphoneIcon from '@mui/icons-material/PhoneIphone';
 
 // >> Script
 function SwapTokens(props) {
@@ -22,11 +22,13 @@ function SwapTokens(props) {
 		<div className={styles.outsideDiv}>
 			<div className={styles.insideDiv} id="swap" data-aos="zoom-in-up">
 				<Typography className={styles.mainTitle} data-aos="zoom-in-up">
-					Swap <span className={styles.mainGreen}>BNB</span>{' '}
-					To <span className={styles.mainGreen}>$LFI!</span> with our platform!
+					Swap <span className={styles.mainGreen}>BNB</span> To{' '}
+					<span className={styles.mainGreen}>$LFI!</span> with our
+					platform!
 				</Typography>
 				<Typography className={styles.mainDesc} data-aos="zoom-in-up">
-					Do you want to earn with us thanks of our App? Swap your BNB to $LFI!
+					Do you want to earn with us thanks of our App? Swap your BNB
+					to $LFI!
 				</Typography>
 				<div className={styles.buttonDiv} data-aos="zoom-in-up">
 					<Button
@@ -34,8 +36,8 @@ function SwapTokens(props) {
 						className={styles.button}
 						href="."
 					>
-						<LinkIcon className={styles.linkIcon} />
-						<Typography>Download App</Typography>
+						<PhoneIphoneIcon className={styles.linkIcon} />
+						<Typography>Go To App</Typography>
 					</Button>
 				</div>
 				<div className={styles.bottomSection}>

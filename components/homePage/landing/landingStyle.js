@@ -128,12 +128,18 @@ const useStyles = makeStyles({
 		},
 	},
 
-	linkIcon: {
+	telegramIcon: {
 		width: '19px',
 		height: 'auto',
 		color: '#FFFFFF',
 		marginRight: '6px',
-		transform: 'rotate(-45deg)',
+	},
+
+	presaleIcon: {
+		width: '19px',
+		height: 'auto',
+		color: '#FFFFFF',
+		marginRight: '6px',
 	},
 
 	bottomSection: {

@@ -106,11 +106,11 @@ const useStyles = makeStyles({
 	},
 
 	linkIcon: {
-		width: '19px',
+		width: '17px',
 		height: 'auto',
 		color: '#FFFFFF',
 		marginRight: '6px',
-		transform: 'rotate(-45deg)',
+		transform: 'rotate(0deg)',
 	},
 
 	// >> Responsive scale

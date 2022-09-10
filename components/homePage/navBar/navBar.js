@@ -9,7 +9,7 @@ import useStyles from './navBarStyle';
 import useGlobalStyles from '../../globalStyle';
 
 // >> Images
-import LinkIcon from '@mui/icons-material/Link';
+import PhoneIphoneIcon from '@mui/icons-material/PhoneIphone';
 import logo from '../../../public/logo.png';
 
 // >> Script
@@ -61,8 +61,8 @@ function NavBar() {
 						className={styles.button}
 						href="."
 					>
-						<LinkIcon className={styles.linkIcon} />
-						<Typography>Contact Us</Typography>
+						<PhoneIphoneIcon className={styles.linkIcon} />
+						<Typography>Go To App</Typography>
 					</Button>
 				</div>
 			</div>

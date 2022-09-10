@@ -10,7 +10,8 @@ import useGlobalStyles from '../../globalStyle';
 // >> Images
 import landingPhones from '../../../public/landingPhones.png';
 import landingCircle from '../../../public/landingCircle.png';
-import LinkIcon from '@mui/icons-material/Link';
+import AddCardIcon from '@mui/icons-material/AddCard';
+import TelegramIcon from '@mui/icons-material/Telegram';
 
 // >> Script
 function Landing(props) {
@@ -23,12 +24,13 @@ function Landing(props) {
 		<div className={styles.outsideDiv} id="home">
 			<div className={styles.insideDiv} data-aos="zoom-in-up">
 				<Typography className={styles.mainTitle} data-aos="zoom-in-up">
-					Listen to Music And {' '}
+					Listen to Music And{' '}
 					<span className={styles.mainGreen}>Earn Money</span> For{' '}
 					<span className={styles.mainGreen}>Free!</span>
 				</Typography>
 				<Typography className={styles.mainDesc} data-aos="zoom-in-up">
-					ListenFi is an app that enables earning tokens by listening to music. May the beat be with you.{' '}
+					ListenFi is an app that enables earning tokens by listening
+					to music. May the beat be with you.{' '}
 				</Typography>
 				<div className={styles.buttonsDiv} data-aos="zoom-in-up">
 					<div className={styles.leftButtonDiv}>
@@ -37,8 +39,8 @@ function Landing(props) {
 							className={styles.leftButton}
 							href="."
 						>
-							<LinkIcon className={styles.linkIcon} />
-							<Typography>List Music</Typography>
+							<AddCardIcon className={styles.presaleIcon} />
+							<Typography>Presale</Typography>
 						</Button>
 					</div>
 					<div className={styles.rightButtonDiv}>
@@ -47,8 +49,8 @@ function Landing(props) {
 							className={styles.rightButton}
 							href="."
 						>
-							<LinkIcon className={styles.linkIcon} />
-							<Typography>Whitepapers</Typography>
+							<TelegramIcon className={styles.telegramIcon} />
+							<Typography>Telegram</Typography>
 						</Button>
 					</div>
 				</div>

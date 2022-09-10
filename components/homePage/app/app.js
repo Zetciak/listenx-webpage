@@ -41,8 +41,11 @@ function App(props) {
 						</span>
 					</Typography>
 					<Typography className={styles.mainDesc}>
-					Listen to music from the ListenFi mobile app and get paid in $LFI tokens!
+						Listen to music from the ListenFi mobile app and get
+						paid in $LFI tokens!
 					</Typography>
+					{/*
+					Stary button, może się kiedyś przyda idk
 					<div className={styles.buttonDiv}>
 						<Button
 							variant="contained"
@@ -52,7 +55,8 @@ function App(props) {
 							<LinkIcon className={styles.linkIcon} />
 							<Typography>Download App</Typography>
 						</Button>
-					</div>
+				</div>
+				*/}
 				</div>
 				<div
 					className={styles.leftSection}

@@ -56,7 +56,7 @@ const useStyles = makeStyles({
 		margin: '0 auto',
 		position: 'relative',
 		background: 'linear-gradient(90deg, #32C671 -6.52%, #31C06F 137.5%)',
-		padding: '11px 16px',
+		padding: '16px',
 		borderRadius: '25.5px',
 		marginTop: '67.5px',
 	},
@@ -64,7 +64,7 @@ const useStyles = makeStyles({
 	youtube: {
 		width: '100%',
 		height: '100%',
-		borderRadius: '25.5px',
+		borderRadius: '9.5px',
 		border: 'none',
 	},
 
